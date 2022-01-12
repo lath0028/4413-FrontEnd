@@ -1,0 +1,35 @@
+@import '_variables';
+
+.header {
+  z-index: 10000;
+  margin: 0px !important;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  position: sticky;
+  .logo {
+    img {
+      width: 42px;
+      margin-right: 8px;
+      margin-bottom: 3px !important;
+    }
+    span {
+      color: $secondary-color;
+    }
+  }
+
+  .header__list {
+    .mr-4 {
+      display: inline-block;
+      .cart {
+        font-size: 25px;
+      }
+      a {
+        color: $primary-color;
+      }
+      .is-active {
+        color: $secondary-color;
+      }
+    }
+  }
+}
